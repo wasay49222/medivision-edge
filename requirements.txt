@@ -1,0 +1,27 @@
+# CPU-only PyTorch (Strict versions required for the +cpu flag)
+torch==2.6.0+cpu
+torchvision==0.21.0+cpu
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+# Medical AI & Federated Learning
+monai>=1.4.0
+flwr>=1.12.0
+
+# Edge Optimization
+onnx>=1.17.0
+onnxruntime>=1.20.0
+
+# Backend & Frontend
+fastapi>=0.115.0
+uvicorn>=0.30.0
+python-multipart>=0.0.9
+streamlit>=1.38.0
+
+# Data & Utilities (Using >= ensures pip finds pre-compiled Python 3.13 wheels)
+pandas>=2.2.2
+numpy>=1.26.4
+matplotlib>=3.9.0
+scikit-learn>=1.6.0
+Pillow>=10.4.0
+pydicom>=3.0.1
+cryptography>=43.0.0

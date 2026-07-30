@@ -1,0 +1,26 @@
+# Environment
+venv/
+.env
+
+# Data and Models (NEVER commit large files)
+data/raw/
+data/hospital_*/images/
+data/test_set/images/
+models/**/*.pth
+models/**/*.onnx
+reports/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Docker
+docker/edge-simulated/*.tar
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
